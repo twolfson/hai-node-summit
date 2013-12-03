@@ -1,0 +1,43 @@
+{
+  "name": "hai-node-summit",
+  "description": "NODE SUMMIT FTW",
+  "version": "0.1.1",
+  "homepage": "https://github.com/twolfson/hai-node-summit",
+  "author": {
+    "name": "Todd Wolfson",
+    "email": "todd@twolfson.com",
+    "url": "http://twolfson.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twolfson/hai-node-summit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twolfson/hai-node-summit/issues"
+  },
+  "licenses": [
+    {
+      "type": "UNLICENSE",
+      "url": "https://github.com/twolfson/hai-node-summit/blob/master/UNLICENSE"
+    }
+  ],
+  "main": "lib/hai-node-summit",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.11.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0"
+  },
+  "keywords": [
+    "node",
+    "summit",
+    "ftw"
+  ]
+}
